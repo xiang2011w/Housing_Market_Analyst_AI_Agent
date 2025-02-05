@@ -1,3 +1,6 @@
+import os
+os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] = "0.0"
+
 import pandas as pd
 import torch
 from torch.utils.data import Dataset

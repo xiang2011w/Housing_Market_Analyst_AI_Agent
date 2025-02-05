@@ -81,8 +81,17 @@ Install the required dependencies using the `requirements.txt` file:
 pip install -r requirements.txt
 ```
 
-### Step 4: Run the Project
-Once your virtual environment is activated and the dependencies are installed, start the project by running:
+### Step 4: Fine-tune the FLAN-T5 Model
+Fine-tuning the FLAN-T5 model ensures it generates high-quality, domain-specific housing market reports tailored to your prompts and desired output format.
+
+Run the script below to fine-tune the model:
+
+```bash
+python fine_tune_flan.py
+```
+
+### Step 5: Run the Project
+Once your virtual environment is activated, dependencies are installed, and the model is fine-tuned, start the project by running:
 
 ```bash
 python cli_interface.py
